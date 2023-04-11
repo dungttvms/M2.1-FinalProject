@@ -1,21 +1,18 @@
 import React from "react";
 import { Part } from "./Part";
 
-const Avatar = (
-  {
-    body,
-    eyes,
-    hair,
-    clothing1,
-    clothing2,
-    clothing3,
-    mouth,
-    eyebrows,
-    hat,
-    glasses,
-  },
-  ref
-) => {
+const Avatar = ({
+  body,
+  eyes,
+  hair,
+  clothing1,
+  clothing2,
+  clothing3,
+  mouth,
+  eyebrows,
+  hat,
+  glasses,
+}) => {
   return (
     <div className="avatar">
       <Part path="body" index={body} zIndex={0} />

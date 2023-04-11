@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Part = ({ path, index, zIndex }) => {
-  console.log("rerender");
+  // console.log("rerender");
   return (
     <img
       src={`../character/${path}/${index + 1}.png`}

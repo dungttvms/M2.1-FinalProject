@@ -84,6 +84,7 @@ function App() {
                 selected={body}
               />{" "}
             </div>
+
             <div className="list-section">
               <h2>Eyes</h2>
               <PartList
@@ -95,6 +96,7 @@ function App() {
                 top="35px"
               />
             </div>
+
             <div className="list-section">
               <h2>Hair</h2>
               <PartList
@@ -104,6 +106,7 @@ function App() {
                 selected={hair}
               />
             </div>
+
             <div className="list-section">
               <h2>Mouth</h2>
               <PartList
@@ -114,6 +117,7 @@ function App() {
                 zoom={2}
               />
             </div>
+
             <div className="list-section">
               <h2>Eyebrows</h2>
               <PartList
@@ -121,8 +125,9 @@ function App() {
                 path="character/eyebrows"
                 set={setEyebrows}
                 selected={eyebrows}
-              />{" "}
+              />
             </div>
+
             <div className="list-section">
               <h2>Hats</h2>
               <PartList
@@ -132,6 +137,7 @@ function App() {
                 selected={hat}
               />
             </div>
+
             <div className="list-section">
               <h2>Glasses</h2>
               <PartList
@@ -141,6 +147,7 @@ function App() {
                 selected={glasses}
               />
             </div>
+
             <div className="list-section">
               <h2>Clothing (L1)</h2>
               <PartList
@@ -150,6 +157,7 @@ function App() {
                 selected={clothing1}
               />
             </div>
+
             <div className="list-section">
               <h2>Clothing (L2)</h2>
               <PartList
@@ -159,6 +167,7 @@ function App() {
                 selected={clothing2}
               />
             </div>
+
             <div className="list-section">
               <h2>Clothing (L3)</h2>
               <PartList
