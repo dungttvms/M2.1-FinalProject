@@ -59,6 +59,7 @@ h2 {
 	width: 260px;
 	height: 280px;
 	position: relative;
+	
 }
 
 .avatar-wrapper {
@@ -69,7 +70,9 @@ h2 {
 	position: sticky;
 	background-color: #fff;
 	top: calc(50% - 205px);
+	
 }
+
 
 .clickable {
 	cursor: pointer;
@@ -105,9 +108,10 @@ h2 {
 }
 
 .avatar-group {
+	
 	display: flex;
 	justify-content: center;
-	/* align-items: center; */
+	align-items: center;
 }
 
 @media (max-width: 1150px) {

@@ -51,7 +51,7 @@ function App() {
   return (
     <div className="App">
       <div className="title">CHARACTER</div>
-      <div className="subtitle">TRẦN TIẾN DŨNG CUSTOMIZE</div>
+      <div className="subtitle"> 🛠️ TRẦN TIẾN DŨNG CUSTOMIZE 🛠️</div>
       <div className="divider"></div>
       <div className="avatar-group gap-30">
         <div>
@@ -74,105 +74,95 @@ function App() {
                 Randomize!
               </button>
             </div>
-
             <div className="list-section">
               <h2>Body</h2>
               <PartList
                 total={total.body}
-                path="character/body"
+                path="body"
                 set={setBody}
                 selected={body}
               />{" "}
             </div>
-
             <div className="list-section">
               <h2>Eyes</h2>
               <PartList
                 total={total.eyes}
-                path="character/eyes"
+                path="eyes"
                 set={setEyes}
                 selected={eyes}
                 zoom={2.5}
                 top="35px"
               />
             </div>
-
             <div className="list-section">
               <h2>Hair</h2>
               <PartList
                 total={total.hair}
-                path="character/hair"
+                path="hair"
                 set={setHair}
                 selected={hair}
               />
             </div>
-
             <div className="list-section">
               <h2>Mouth</h2>
               <PartList
                 total={total.mouth}
-                path="character/mouths"
+                path="mouths"
                 set={setMouth}
                 selected={mouth}
                 zoom={2}
               />
             </div>
-
             <div className="list-section">
               <h2>Eyebrows</h2>
               <PartList
                 total={total.eyebrows}
-                path="character/eyebrows"
+                path="eyebrows"
                 set={setEyebrows}
                 selected={eyebrows}
               />
             </div>
-
             <div className="list-section">
               <h2>Hats</h2>
               <PartList
                 total={total.hat}
-                path="character/accessories/hats"
+                path="accessories/hats"
                 set={setHat}
                 selected={hat}
               />
             </div>
-
             <div className="list-section">
               <h2>Glasses</h2>
               <PartList
                 total={total.glasses}
-                path="character/accessories/glasses"
+                path="accessories/glasses"
                 set={setGlasses}
                 selected={glasses}
               />
             </div>
-
             <div className="list-section">
               <h2>Clothing (L1)</h2>
               <PartList
                 total={total.clothing1}
-                path="character/clothes/layer_1"
+                path="clothes/layer_1"
                 set={setClothing1}
                 selected={clothing1}
               />
             </div>
-
             <div className="list-section">
               <h2>Clothing (L2)</h2>
               <PartList
                 total={total.clothing2}
-                path="character/clothes/layer_2"
+                path="clothes/layer_2"
                 set={setClothing2}
                 selected={clothing2}
               />
             </div>
-
             <div className="list-section">
               <h2>Clothing (L3)</h2>
               <PartList
                 total={total.clothing3}
-                path="character/clothes/layer_3"
+                path="clothes/layer_3"
                 set={setClothing3}
                 selected={clothing3}
                 zoom={2}

@@ -19,7 +19,7 @@ export const PartList = ({
         onClick={() => set(i)}
       >
         <img
-          src={`../character/${path}/${i + 1}.png`}
+          src={`./character/${path}/${i + 1}.png`}
           alt=""
           height={60 * zoom}
           className="img-center"
